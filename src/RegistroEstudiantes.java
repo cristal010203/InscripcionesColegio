@@ -1,8 +1,8 @@
 public class RegistroEstudiantes {
     private int Carné;
     private String NombreEstudinte;
-    private String ApellidoEstudinte;
-    private int FechaNacimiento;
+    private String ApellidoEstudiante;
+    private String FechaNacimiento;
 
     public int getCarné() {
         return Carné;
@@ -16,23 +16,23 @@ public class RegistroEstudiantes {
         return NombreEstudinte;
     }
 
-    public void setNombreEstudinte(String nombreEstudinte) {
-        NombreEstudinte = nombreEstudinte;
+    public void setNombreEstudinte(String nombreEstudiante) {
+        NombreEstudinte = nombreEstudiante;
     }
 
-    public String getApellidoEstudinte() {
-        return ApellidoEstudinte;
+    public String getApellidoEstudiante() {
+        return ApellidoEstudiante;
     }
 
-    public void setApellidoEstudinte(String apellidoEstudinte) {
-        ApellidoEstudinte = apellidoEstudinte;
+    public void setApellidoEstudiante(String apellidoEstudiante) {
+        ApellidoEstudiante = apellidoEstudiante;
     }
 
-    public int getFechaNacimiento() {
+    public String getFechaNacimiento() {
         return FechaNacimiento;
     }
 
-    public void setFechaNacimiento(int fechaNacimiento) {
+    public void setFechaNacimiento(String fechaNacimiento) {
         FechaNacimiento = fechaNacimiento;
     }
 }
